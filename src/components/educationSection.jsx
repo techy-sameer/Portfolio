@@ -17,11 +17,11 @@ function App() {
         "Secured top grades in Computer Science, Mathematics, and Physics.",
     },
     {
-      title: "Certified React Developer",
-      institution: "Coursera",
-      year: "2023",
+      title: "Intermediate",
+      institution: "ARTI YADAV T C YADAV SHIKSHA NIKETAN I C BADAUN",
+      year: "2020 - 2O21",
       description:
-        "Learned advanced concepts in React.js, including hooks, state management, and optimization.",
+        "Passed First Division.",
     },
   ];
 

@@ -1,6 +1,10 @@
 import React from "react";
 
+
 const AboutMe = () => {
+
+  const SameerResume = '/resume.pdf'
+
   return (
     <section
       id="aboutMe"
@@ -26,13 +30,11 @@ const AboutMe = () => {
         </p>
 
         {/* Resume Download Button */}
-        <a
-          href="techSameer (1).pdf" // Replace with the actual path to your resume
-          download="techSameer (1).pdf_Resume.pdf"
+        <button onClick={() => window.open(SameerResume, "_blank")}
           className="inline-block px-8 py-3 bg-teal-400 text-gray-800 font-bold rounded-lg hover:bg-teal-500 transition duration-300 shadow-lg transform hover:scale-105"
         >
           Download My Resume
-        </a>
+        </button>
       </div>
     </section>
   );

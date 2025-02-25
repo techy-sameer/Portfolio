@@ -4,7 +4,7 @@ import HeroSection from "../components/heroSection";
 import Contact from "../components/contact";
 import SkillsSection from "../components/skillSection";
 import AboutMe from "../components/aboutMe";
-
+import Footer from "../components/footer";
 function Home() {
   return (
     <div className="font-sans">
@@ -74,6 +74,8 @@ function Home() {
 
       {/* Contact Section */}
       <Contact />
+
+      <Footer/>
     </div>
   );
 }
